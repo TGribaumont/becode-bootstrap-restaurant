@@ -197,6 +197,13 @@ form input[type=submit]:hover {
     background-color: rgba(68,116,163,1);
 }
 
+/* 2.3 Buttons */
+
+.btn-primary {
+    background-color: #4474a3;
+    border-color: #4474a3;
+}
+
 /*
 
 *  3.0 Header
