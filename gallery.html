@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>AAAAAA Burgers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header id="mainHeader">
+                <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="Logo" />
+                <h1>AAAAAA Burgers</h1>
+                </a>
+                    <a id="language" href="fr/index.html">FR</a>
+                    <nav class="nav nav-pills nav-fill">
+                        <a class="nav-item nav-link" href="index.html">Home</a>
+                        <a class="nav-item nav-link" href="menu.html">Menu</a>
+                        <a class="nav-item nav-link active" href="gallery.html">Pics</a>
+                        <a class="nav-item nav-link" href="findus.html">Find us</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </nav>
+                <!--</nav>-->
+            </header>
+            <div id="gallery" class="row mainContent">
+                <!--<div id="gallery" class="col-8">-->
+                <div class="col-lg-4">
+                        <img src="images/burgers-1976198__480.jpg" alt="Burger" />
+                </div>
+                <div class="col-lg-4">
+                        <img src="images/burgers-1976198__480.jpg" alt="Burger" />
+                </div>
+                <div class="col-lg-4">
+                        <img src="images/burgers-1976198__480.jpg" alt="Burger" />
+                </div>
+                
+<!--                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#page1">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#page2">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#page3">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#page4">Next</a></li>
+                  </ul>
+                </nav>-->
+                
+                <nav id="galleryPagination" aria-label="...">
+                    <ul class="pagination">
+                        <li id="galleryPrevious" class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li id="galleryNext" class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+
+                
+                
+            </div>
+            
+
+            <footer id="mainFooter">
+                <div class="row">
+                    <div id="footerSiteMap" class="col-lg-4 col-sm-12">
+                        <h3>Sitemap</h3>
+                        <nav class="nav flex-column">
+                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="#">Pics</a>
+                            <a class="nav-link" href="#">Find us</a>
+                            <a class="nav-link" href="#">Contact</a>
+                        </nav>
+                    </div>
+                    <div id="footerLogo" class="col-lg-4 col-sm-12">
+                        <!--<h3>CENTER</h3>-->
+                        <img src="images/logo.png" alt="Logo" />
+                        <h3>AAAAAA Burgers</h3>
+                    </div>
+                    <div id="footerSocial" class="col-lg-4 col-sm-12">
+                        <h3>Follow us</h3>
+                        <ul class="text-center">
+<!--                            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i>Find us on Facebook</a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i>Follow us on twitter</a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i>Admire us on instagrm</a></li>
+                            <li><a href="#" target="_blank"><i class="fas fa-at"></i>Send us an email</a></li>-->
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fas fa-at"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p id="copyright">&copy; 2018 - Crafted with <img id="img" src="images/apple.png" alt="" /> by Thibault Gribaumont</p>
+                <script src="js/jquery-1.12.3.js"></script>
+                <script src="js/functions.js"></script>
+            </footer>
+        </div>
+    </body>
+</html>

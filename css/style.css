@@ -17,10 +17,7 @@ Table of Contents
     3.2 Nav
 4.0 Content
     4.1 Index
-        4.1.1 Now
-        4.1.2 Future
-        4.1.3 Hobbies
-        4.1.4 Contact
+    4.2 Menu
 5.0 Footer
 6.0 Responsive
     6.1 Smartphones (portrait and landscape) => 320px - 48Opx
@@ -106,7 +103,7 @@ html {
 }
 
 body {
-    background-color: #f2f9ff;
+    background-color: #fdfdfd;
     color: #042240;
     width: 100%;
 }
@@ -123,7 +120,7 @@ h1 {
 
 h2 {
     /*font-family: 'Black Han Sans';*/
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 4em;
     /*margin-bottom: 20px;*/
 }
@@ -323,10 +320,21 @@ form input[type=submit]:hover {
     text-align: right;
 }
 
-#mainContent {
+#localProducts img {
+    display: inline-block;
+    margin: 30px auto 0;
+    height: 130px;
+    padding: 0 30px;
+}
+
+#indexContent {
     background: url('../images/table-791167_1280.jpg') fixed center center no-repeat;
     background-size: cover;
     color: #fff;
+}
+
+#indexContent #specialOffers {
+    padding: 0 30px;
 }
 
 .row h3 {
@@ -335,8 +343,14 @@ form input[type=submit]:hover {
     margin: 1em 0;
 }
 
-#mainContent .col-sm-12 {
-    background-color: rgba(255,255,255,0.1);
+#indexContent .col-sm-12 {
+    /*background-color: rgba(255,255,255,0.1);*/
+    background-color: rgba(0,0,0,0.7);
+}
+
+#indexContent .col-lg-6 {
+    border-left: 1px solid #fdfdfd;
+    border-right: 1px solid #fdfdfd;
 }
 
 .offerSlogan {
@@ -353,11 +367,11 @@ form input[type=submit]:hover {
     margin-bottom: 4em;
 }
 
-#mainContent .col-lg-6 {
+#indexContent .col-lg-6 {
     text-align: center;
 }
 
-#mainContent .col-lg-6 h3 {
+#indexContent .col-lg-6 h3 {
     margin-top: 100px;
     border-radius: 60px;
     background-color: #4474a3;
@@ -368,7 +382,7 @@ form input[type=submit]:hover {
     text-transform: uppercase;
 }
 
-#mainContent .col-lg-6 p {
+#indexContent .col-lg-6 p {
     font-size: 1.5em;
     padding: 0 50px;
 }
@@ -388,6 +402,169 @@ form input[type=submit]:hover {
     height: 20px;
     display: block;
 }*/
+
+/* 4.3 Menu */
+
+#menuNav {
+    border-top: 1px solid #4474a3;
+    border-bottom: 1px solid #4474a3;
+    padding-bottom: 20px;
+}
+
+.menuRibbon {
+    text-align: center;
+}
+
+.menuRibbon h2 {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.menuSection {
+    padding-top: 50px;
+}
+
+.menuSection h3 {
+    margin-top: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.menuSection .col-12 {
+    margin-bottom: 50px;
+}
+
+.menuSection .col-12 .burgerName,
+.menuSection .col-12 .burgerPrice {
+    display: inline-block;
+}
+
+.menuSection .col-12 .burgerName {
+    margin: 0 0 10px;
+    text-align: left;
+    font-size: 1.2em;
+    width: 60%;
+}
+
+.menuSection .col-12 .burgerName .spicy {
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+.menuSection .col-12 .burgerName .spicy::after {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-image: url(../images/769759_hot_512x512.png);
+    background-size: cover;
+    position: relative;
+    top: 5px;
+}
+
+.menuSection .col-12 .burgerName .spicy.spicy2::after {
+    width: 40px;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.menuSection .col-12 .burgerName .spicy.spicy3::after {
+    width: 60px;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.menuSection .col-12 .burgerIngredients {
+    padding-right: 10%;
+}
+
+.menuSection .menuOptionsList {
+    width: 100%;
+}
+
+.menuSection .menuOptionsList li {
+    display: inline-block;
+}
+
+#beefBurgers, #customBurgers {
+    background-color: #4484ce;
+}
+
+#chickenBurgers, #foodMisc {
+    background-color: #f19f4d;
+}
+
+#fishBurgers, #foodDessert {
+    background-color: #008f95;
+}
+
+#customBurgers .menuOptionsList li {
+    margin-bottom: 30px;
+}
+
+/* 4.3 Contact */
+
+#contactContent {
+    background: url('../images/writing-pad-3229690.jpg') fixed center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fdfdfd;
+}
+
+#contactContent .row {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    padding: 0 50px;
+}
+
+#contactContent h3 {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#contactContent #contactForm {
+    width: 100%;
+}
+
+#contactContent #contactForm fieldset {
+    float: left;
+    width: 50%;
+}
+
+#contactContent #contactForm textarea {
+    height: 200px;
+    width: 100%;
+}
+
+#contactContent #contactForm input[type="submit"] {
+    display: block;
+    margin: 10px auto 20px;
+    font-size: 1.2em;
+}
+
+#contactContent #contactForm label {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* 4.3 Gallery */
+
+#gallery {
+    padding: 50px 10%;
+}
+
+#gallery nav {
+    margin: 30px auto 0;
+}
+
+#gallery img {
+    width: 100%;
+    padding: 10px;
+}
 
 /* 4.1.4 Contact */
 

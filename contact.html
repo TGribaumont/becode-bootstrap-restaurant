@@ -31,72 +31,36 @@ and open the template in the editor.
                     </ul>-->
                     <a id="language" href="fr/index.html">FR</a>
                     <nav class="nav nav-pills nav-fill">
-                        <a class="nav-item nav-link active" href="index.html">Home</a>
+                        <a class="nav-item nav-link" href="index.html">Home</a>
                         <a class="nav-item nav-link" href="menu.html">Menu</a>
                         <a class="nav-item nav-link" href="gallery.html">Pics</a>
                         <a class="nav-item nav-link" href="findus.html">Find us</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        <a class="nav-item nav-link active" href="contact.html">Contact</a>
                     </nav>
                 <!--</nav>-->
             </header>
-            <div class="jumbotron-fluid">
-                <div class="jumbotronContent">
-                    <h2>New burger franchise<br>in Brussels</h2>
-                    <a class="btn btn-primary" href="#">Discover</a>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div id="localProducts" class="row text-center indexRibbon">
-                <div class="col-12">
-                    <p>AAAAAA is the burger franchise of the future. We propose a wide range of burgers and offers its customers to create their own.<br>
-                    Choose your buns, the meat (up to 4 pieces), the sauce(s), the vegetables...</p>
-                    <p>We take pride in offering local products to our customers. Most of our products were produced in Belgium.</p>
-                    <img src="images/belgium-654233_1280.png" alt="Belgium fingerprint" />
-                    <img src="images/pepites-magasin-produits-locaux-bio-rixensart.jpg" alt="Logo 100% Belge" />
-                </div>
-            </div>
-            <div id="indexContent" class="row mainContent">
-                <div id="specialOffers" class="col-lg-3 col-sm-12">
-                    <h3>Special offers</h3>
-                    <p class="offerSlogan">Opening week offers</p>
-                    <p class="offersItem">10% off of all our burgers</p>
-                    <p class="offerSlogan">Offer of the week</p>
-                    <p class="offersItem">15% off of the cheeseburger</p>
-                </div>
-                <div class="col-lg-6 col-sm-12">
-                    <h3>Join us</h3>
-                    <p>We are still looking for some people to help us grow.</p>
-                    <p>If you are community manager, waiter or waitress, cook or android developer, feel free to contact us.</p>
-                </div>
-                <!--<div class="col-lg-3 col-sm-12 card">-->
-                    <!--<h3 class="card-title">Book a table</h3>-->
-                <div class="col-lg-3 col-sm-12">
-                    <h3>Book a table</h3>
-                    <form id="bookingForm">
-                        <label for="bookingName">Your name</label><br>
-                        <input type="text" name="bookingName" id="bookingName" placeholder="Enter your last name" required /><br>
+            <div id="contactContent" class="mainContent row">
+                <div class="row">
+                    <h3>Contact</h3>
+                    <form id="contactForm">
+                        <fieldset>
+                            <label for="formFirstName">First Name</label><br>
+                            <input type="text" name="firstName" id="formFirstName" placeholder="Enter your first name" required /><br>
 
-                        <label for="bookingEmail">Email</label><br>
-                        <input type="email" name="bookingEmail" id="bookingEmail" placeholder="Enter your email" required /><br>
+                            <label for="formSurname">Surname</label><br>
+                            <input type="text" name="surname" id="formSurname" placeholder="Enter your surname" required /><br>
+                        </fieldset>
                         
-                        <label for="bookingNbr">Number of people</label><br>
-                        <input type="number" name="bookingNbr" id="bookingNbr" required /><br>
+                        <fieldset>
+                            <label for="formEmail">Email</label><br>
+                            <input type="email" name="email" id="formEmail" placeholder="Enter your email" required /><br>
+                        </fieldset>
+                        <div class="clearfix"></div>
                         
-                        <label for="bookingDate">Date</label><br>
-                        <input type="date" name="bookingDate" id="bookingDate" required /><br>
-                        
-                        <label for="bookingTime">Time</label><br>
-                        <input type="time" name="bookingTime" id="bookingTime" required /><br>
-                        
+                        <label for="formMessage">Message</label><br>
+                        <textarea name="message" id="formMessage"></textarea><br>
                         <input type="submit" value="book" />
                     </form>
-                </div>
-            </div>
-            <div class="row text-center indexRibbon">
-                <div class="col-12">
-                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                    <p class="customerReview">"The best burgers in Brussels !! You can create your own burger with whatever you want. The product are all fresh and tasty ! PERFECT !!!"</p>
-                    <span>Jony</span>
                 </div>
             </div>
             <footer id="mainFooter">
