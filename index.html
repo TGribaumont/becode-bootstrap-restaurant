@@ -30,19 +30,34 @@ and open the template in the editor.
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>-->
                     <a id="language" href="fr/index.html">FR</a>
-                    <nav class="nav nav-pills nav-fill">
-                        <a class="nav-item nav-link active" href="index.html">Home</a>
-                        <a class="nav-item nav-link" href="menu.html">Menu</a>
-                        <a class="nav-item nav-link" href="gallery.html">Pics</a>
-                        <a class="nav-item nav-link" href="findus.html">Find us</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    </nav>
-                <!--</nav>-->
+<!--                    <nav class="nav nav-pills nav-fill">
+                            <a class="nav-item nav-link active" href="index.html">Home</a>
+                            <a class="nav-item nav-link" href="menu.html">Menu</a>
+                            <a class="nav-item nav-link" href="gallery.html">Pics</a>
+                            <a class="nav-item nav-link" href="findus.html">Find us</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </nav>-->
+                <!--<nav class="navbar navbar-expand-md bg-dark navbar-dark">-->
+                <nav class="navbar navbar-expand-md">
+                   <a class="navbar-brand" href="#"></a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                       <div class="navbar-nav">
+                           <a class="nav-item nav-link active" href="index.html">Home</a>
+                           <a class="nav-item nav-link" href="menu.html">Menu</a>
+                           <a class="nav-item nav-link" href="gallery.html">Pics</a>
+                           <a class="nav-item nav-link" href="findus.html">Find us</a>
+                           <a class="nav-item nav-link" href="contact.html">Contact</a>
+                       </div>
+                   </div>
+               </nav> 
             </header>
             <div class="jumbotron-fluid">
                 <div class="jumbotronContent">
                     <h2>New burger franchise<br>in Brussels</h2>
-                    <a class="btn btn-primary" href="#">Discover</a>
+                    <!--<a class="btn btn-primary" href="#">Discover</a>-->
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -82,6 +97,14 @@ and open the template in the editor.
                         <label for="bookingNbr">Number of people</label><br>
                         <input type="number" name="bookingNbr" id="bookingNbr" required /><br>
                         
+                        <label for="bookingNbr">Restaurant</label><br>
+                        <select id="bookingLocation">
+                            <option selected>-</option>
+                            <option>Auderghem</option>
+                            <option>Ixelles</option>
+                            <option>Woluwe</option>
+                        </select><br>
+                        
                         <label for="bookingDate">Date</label><br>
                         <input type="date" name="bookingDate" id="bookingDate" required /><br>
                         
@@ -104,11 +127,11 @@ and open the template in the editor.
                     <div id="footerSiteMap" class="col-lg-4 col-sm-12">
                         <h3>Sitemap</h3>
                         <nav class="nav flex-column">
-                            <a class="nav-link" href="#">Home</a>
-                            <a class="nav-link" href="#">Menu</a>
-                            <a class="nav-link" href="#">Pics</a>
-                            <a class="nav-link" href="#">Find us</a>
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link" href="gallery.html">Pics</a>
+                            <a class="nav-link" href="findus.html">Find us</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </nav>
                     </div>
                     <div id="footerLogo" class="col-lg-4 col-sm-12">

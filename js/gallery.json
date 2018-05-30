@@ -1,4 +1,4 @@
-{ "gallery":[
+[          
             {
                 "url": "images/burgers-1976198__480.jpg"
             },
@@ -9,7 +9,7 @@
                 "url": "images/burgers-1976198__480.jpg"
             },
             {
-                "url": "images/burgers-1976198__480.jpg"
+                "url": "images/snack-2635035_1920.jpg"
             },
             {
                 "url": "images/burgers-1976198__480.jpg"
@@ -18,7 +18,7 @@
                 "url": "images/burgers-1976198__480.jpg"
             },
             {
-                "url": "images/burgers-1976198__480.jpg"
+                "url": "images/writing-pad-3229690.jpg"
             },
             {
                 "url": "images/burgers-1976198__480.jpg"
@@ -27,9 +27,9 @@
                 "url": "images/burgers-1976198__480.jpg"
             },
             {
-                "url": "images/burgers-1976198__480.jpg"
+                "url": "images/pepites-magasin-produits-locaux-bio-rixensart.jpg"
             },
             {
                 "url": "images/burgers-1976198__480.jpg"
             }
-]}
+]
