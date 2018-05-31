@@ -2,7 +2,7 @@
     var urlsToCache = [
       '/',
 //      '/styles/main.css',
-      'functions.js'
+      'https://tgribaumont.github.io/becode-bootstrap-restaurant/js/functions.js'
     ];
 
     self.addEventListener('install', function(event) {
