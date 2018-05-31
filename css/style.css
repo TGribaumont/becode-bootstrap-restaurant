@@ -779,7 +779,8 @@ form input[type=submit]:hover {
 }
 
 #mainFooter .row {
-    background: url("../images/food-949388_1280.png") center center no-repeat;
+    /*background: url("../images/food-949388_1280.png") center center no-repeat;*/
+    background: url("../images/food-2126372_1280.jpg") center center no-repeat;
     background-size: cover;
 }
 
