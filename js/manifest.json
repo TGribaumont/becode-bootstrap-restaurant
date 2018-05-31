@@ -7,12 +7,12 @@
                 "theme_color": "#fdfdfd",
                 "icons": [
                 {
-                  "src": "/images/logo.png",
+                  "src": "https://tgribaumont.github.io/becode-bootstrap-restaurant/images/logo.png",
                   "type": "image/png",
                   "sizes": "192x192"
                 },
                 {
-                  "src": "/images/logo.png",
+                  "src": "https://tgribaumont.github.io/becode-bootstrap-restaurant/images/logo.png",
                   "type": "image/png",
                   "sizes": "512x512"
                 }
