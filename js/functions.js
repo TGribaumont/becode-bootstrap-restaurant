@@ -99,6 +99,17 @@ $(document).ready(function() {
 //    }
 //    displayPics(4);
     
+    /* Scroll to anchors */
+    $('a[href*="#"]').on('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var target = $(this).attr('href');
+        //JQUERY SCROLL
+        $("html, body").animate({
+            scrollTop: $(target).offset().top
+        }, 1000);
+        
+    });
     
     /* Change image in the footer */
     
@@ -177,3 +188,15 @@ $(document).ready(function() {
 
     }
 //    initMap();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('js/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}

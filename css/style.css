@@ -151,6 +151,10 @@ ol li a {
     margin: 0;
 }
 
+.page-link {
+    color: #4474a3;
+}
+
 /* 2.2 Forms */
 
 form select {
@@ -347,6 +351,10 @@ form input[type=submit]:hover {
     padding: 0 30px;
 }
 
+#indexContent #bookingTable h3 {
+    margin: 1em 0 0.5em;
+}
+
 .row h3 {
     text-align: center;
     font-size: 2em;
@@ -421,6 +429,14 @@ form input[type=submit]:hover {
     padding-bottom: 20px;
 }
 
+#menuNav h3 {
+    margin: 0.5em 0;
+}
+
+#menuNav a {
+    color: #042240;
+}
+
 .menuRibbon {
     text-align: center;
 }
@@ -432,7 +448,7 @@ form input[type=submit]:hover {
 }
 
 .menuSection {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 .menuSection h3 {
@@ -473,7 +489,9 @@ form input[type=submit]:hover {
     background-image: url(../images/769759_hot_512x512.png);
     background-size: cover;
     position: relative;
-    top: 5px;
+/*    top: 5px;*/
+    bottom: 3px;
+    float: right;
 }
 
 .menuSection .col-12 .burgerName .spicy.spicy2::after {
@@ -500,7 +518,7 @@ form input[type=submit]:hover {
     display: inline-block;
 }
 
-#beefBurgers, #customBurgers {
+/*#beefBurgers, #customBurgers {
     background-color: #4484ce;
 }
 
@@ -510,6 +528,73 @@ form input[type=submit]:hover {
 
 #fishBurgers, #foodDessert {
     background-color: #008f95;
+}*/
+
+#beefBurgers {
+    background: url('../images/burger-2018627_1920.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#chickenBurgers {
+    background: url('../images/burger-1830696_1280.jpg') center 60% no-repeat;
+    background-size: cover;
+}
+
+#fishBurgers {
+    background: url('../images/burgers-1976198__480.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+#veganBurgers {
+    background: url('../images/veggie-2281212_1920.jpg') center 10% no-repeat;
+    background-size: cover;
+}
+
+#customBurgers {
+    background: url('../images/ketchup-617231_1280.jpg') center 10% no-repeat;
+    background-size: cover;
+}
+
+#foodMisc {
+    background: url('../images/food-1553300_1280.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#drinks .alcool {
+    background: url('../images/drink-3313605_1280.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#drinks .softsDigestive {
+    background: url('../images/whisky-3313592_1280.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#foodDessert {
+    background: url('../images/eszterhazyschnitte-626109_1280.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#beefBurgers .col-sm-12,
+#chickenBurgers .col-sm-12,
+#fishBurgers .col-sm-12,
+#veganBurgers .col-sm-12,
+#customBurgers .col-sm-12 {
+    padding-top: 50px;
+}
+
+#beefBurgers .col-sm-12,
+#fishBurgers .col-sm-12 {
+    background-color: rgba(0,0,0,0.7);
+    color: #fdfdfd;
+}
+
+#chickenBurgers .col-sm-12,
+#veganBurgers .col-sm-12 {
+    background-color: rgba(255,255,255,0.7);
+    color: #042240;
 }
 
 #customBurgers .menuOptionsList li,
@@ -517,6 +602,71 @@ form input[type=submit]:hover {
 #foodDessert .menuOptionsList li,
 .drinksSection li {
     margin-bottom: 30px;
+}
+
+#customBurgers .col-12 {
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+#customBurgers .col-sm-12,
+#customBurgers .col-12 {
+    background-color: rgba(255,255,255,0.7);
+    color: #042240;
+}
+
+#customBurgers .col-sm-12 .col-12 {
+    background: none;
+}
+
+#foodMisc .col-sm-12 {
+    background-color: rgba(0,0,0,0.7);
+    color: #fdfdfd;
+}
+
+#foodMisc  .col-sm-12 {
+    padding: 50px 15px;
+}
+
+#foodDessert .col-sm-12 {
+    padding: 50px 15px 0;
+}
+
+#foodMisc .col-sm-12 .col-12 {
+    margin-bottom: 0;
+} 
+
+#foodMisc .col-sm-12 .col-12 h3 {
+    font-size: 1em;
+}
+
+#drinks .alcool .col-sm-12 {
+    background-color: rgba(255,255,255,0.7);
+    color: #042240;
+}
+
+#drinks .softsDigestive .col-sm-12 {
+    background-color: rgba(0,0,0,0.7);
+    color: #fdfdfd;
+}
+
+#drinks .col-sm-12 {
+    padding-top: 50px;
+}
+
+#foodDessert .col-sm-12 {
+    background-color: rgba(255,255,255,0.7);
+    color: #042240;
+
+}
+
+.menuSection .genericCategoryTitle {
+    display: inline-block;
+    width: auto;
+}
+
+.menuSection .categoryPrice {
+    margin-left: 10px;
 }
 
 /* 4.4 Gallery */
@@ -709,6 +859,14 @@ form input[type=submit]:hover {
 /* Smaller laptops */
 @media only screen and (max-width : 780px) {
     
+    #mainHeader a {
+        display: inline-block;
+    }
+    
+    .navbar {
+        display: block !important;
+        position: static;
+    }
     
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(68,116,163, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
