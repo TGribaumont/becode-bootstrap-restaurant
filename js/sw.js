@@ -1,7 +1,8 @@
     var CACHE_NAME = 'my-site-cache-v1';
     var urlsToCache = [
-      '/'
+//      '/',
 //      '/styles/main.css',
+      'https://tgribaumont.github.io/becode-bootstrap-restaurant/'
 //      'https://tgribaumont.github.io/becode-bootstrap-restaurant/js/functions.js'
     ];
 
