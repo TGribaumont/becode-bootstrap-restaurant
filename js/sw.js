@@ -2,7 +2,8 @@
     var urlsToCache = [
 //      '/',
 //      '/styles/main.css',
-      'https://tgribaumont.github.io/becode-bootstrap-restaurant/'
+      'https://tgribaumont.github.io/becode-bootstrap-restaurant/',
+      'https://tgribaumont.github.io/becode-bootstrap-restaurant/findus.html'
 //      'https://tgribaumont.github.io/becode-bootstrap-restaurant/js/functions.js'
     ];
 
