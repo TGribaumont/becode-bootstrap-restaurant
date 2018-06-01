@@ -709,6 +709,12 @@ form input[type=submit]:hover {
     color: #042240;
 }
 
+#findusContent #openingHours {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 50px 0 0;
+}
+
 #map {
     height: 100vh;
 }
@@ -780,7 +786,7 @@ form input[type=submit]:hover {
 
 #mainFooter .row {
     /*background: url("../images/food-949388_1280.png") center center no-repeat;*/
-    background: url("../images/food-2126372_1280.jpg") center center no-repeat;
+    background: url("../images/food-2126372_1280.jpg") center 35% no-repeat;
     background-size: cover;
 }
 
