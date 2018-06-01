@@ -12,8 +12,8 @@
       'https://tgribaumont.github.io/becode-bootstrap-restaurant/css/bootstrap.min.css',
       'https://tgribaumont.github.io/becode-bootstrap-restaurant/css/style.css',
       'https://tgribaumont.github.io/becode-bootstrap-restaurant/images/food-949388_1280.png',
-      'https://tgribaumont.github.io/becode-bootstrap-restaurant/images/logo.png',
-      'https://tgribaumont.github.io/becode-bootstrap-restaurant/js/manifest.json'
+      'https://tgribaumont.github.io/becode-bootstrap-restaurant/images/logo.png'
+//      'https://tgribaumont.github.io/becode-bootstrap-restaurant/js/manifest.json'
 //      'https://tgribaumont.github.io/becode-bootstrap-restaurant/js/functions.js'
     ];
 
