@@ -294,7 +294,7 @@ form input[type=submit]:hover {
 
 .jumbotron-fluid {
     height: 500px;
-    background: url('../images/snack-2635035_1920.jpg') center 70% no-repeat;
+    background: url('../images/snack-2635035_1280.jpg') center 70% no-repeat;
     background-size: cover;
 }
 
@@ -342,7 +342,7 @@ form input[type=submit]:hover {
 }
 
 #indexContent {
-    background: url('../images/table-791167_1280.jpg') fixed center center no-repeat;
+    background: url('../images/table-791167_640.jpg') fixed center center no-repeat;
     background-size: cover;
     color: #fff;
 }
