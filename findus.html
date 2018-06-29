@@ -5,408 +5,344 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html lang="en">
-    <head>
-        <title>AAAAAA Burgers</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Description" content="AAAAAA Burgers. The burger franchise of the future.">
-        <meta name="theme-color" content="#fdfdfd">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-        <link rel="manifest" href="js/manifest.json">
-    </head>
-    <body>
-        <div class="container-fluid">
-            <header id="mainHeader">
-                <a href="index.html">
+
+<head>
+    <title>AAAAAA Burgers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="AAAAAA Burgers. The burger franchise of the future.">
+    <meta name="theme-color" content="#fdfdfd">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="manifest" href="js/manifest.json">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header id="mainHeader">
+            <a href="index.html">
                 <img id="logo" src="images/logo.png" alt="Logo" />
                 <h1>AAAAAA Burgers</h1>
-                </a>
-                <!--<h1>Custom Burgers</h1>-->
-                <!--<nav class="nav justify-content-center">-->
-<!--                    <ul class="nav justify-content-center nav-pills nav-fill">
+            </a>
+            <!--<h1>Custom Burgers</h1>-->
+            <!--<nav class="nav justify-content-center">-->
+            <!--                    <ul class="nav justify-content-center nav-pills nav-fill">
                         <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Pics</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Find us</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>-->
-                    <a id="language" href="fr/index.html">FR</a>
-                    <nav class="nav nav-pills nav-fill">
-                        <a class="nav-item nav-link" href="index.html">Home</a>
-                        <a class="nav-item nav-link" href="menu.html">Menu</a>
-                        <a class="nav-item nav-link" href="gallery.html">Pics</a>
-                        <a class="nav-item nav-link active" href="findus.html">Find us</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a id="language" href="fr/index.html">FR</a>
+            <nav class="nav nav-pills nav-fill">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="menu.html">Menu</a>
+                <a class="nav-item nav-link" href="gallery.html">Pics</a>
+                <a class="nav-item nav-link active" href="findus.html">Find us</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </nav>
+            <!--</nav>-->
+        </header>
+        <div id="findusContent" class="mainContent row">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <h4>Ixelles</h4>
+                    <img class="img-fluid restaurantPic" src="images/table-791167_640.jpg" alt="AAAAAA Burgers - Ixelles" />
+                    <p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span><i class="fas fa-map-marker"></i></span>1150 Ixelles</p>
+                    <p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>
+                    <p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">ixelles@aaaburgers.com</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Auderghem</h4>
+                    <img class="img-fluid restaurantPic" src="images/table-791167_640.jpg" alt="AAAAAA Burgers - Auderghem" />
+                    <p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span><i class="fas fa-map-marker"></i></span>1160 Auderghem</p>
+                    <p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>
+                    <p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">auderghem@aaaburgers.com</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Woluwe</h4>
+                    <img class="img-fluid restaurantPic" src="images/table-791167_640.jpg" alt="AAAAAA Burgers - Woluwe" />
+                    <p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span><i class="fas fa-map-marker"></i></span>1200 Woluwe</p>
+                    <p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>
+                    <p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">woluwe@aaaburgers.com</a></p>
+                </div>
+            </div>
+            <div id="openingHours" class="row">
+                <div class="col-12 text-center">
+                    <p>Tous nos restaurants sont ouverts du mardi au dimanche de 11h à 23h.</p>
+                </div>
+            </div>
+        </div>
+        <div id="map" class="row">
+
+        </div>
+        <footer id="mainFooter">
+            <div class="row">
+                <div id="footerSiteMap" class="col-lg-4 col-sm-12">
+                    <h3>Sitemap</h3>
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="gallery.html">Pics</a>
+                        <a class="nav-link" href="findus.html">Find us</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </nav>
-                <!--</nav>-->
-            </header>
-            <div id="findusContent" class="mainContent row">
-                <div class="row text-center">
-                    <div class="col-lg-4">
-                        <h4>Ixelles</h4>
-                        <img class="img-fluid restaurantPic" src="images/table-791167_640.jpg" alt="AAAAAA Burgers - Ixelles" />
-                        <p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span><i class="fas fa-map-marker"></i></span>1150 Ixelles</p>
-                        <p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>
-                        <p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">ixelles@aaaburgers.com</a></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Auderghem</h4>
-                        <img class="img-fluid restaurantPic" src="images/table-791167_640.jpg" alt="AAAAAA Burgers - Auderghem" />
-                        <p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span><i class="fas fa-map-marker"></i></span>1160 Auderghem</p>
-                        <p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>
-                        <p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">auderghem@aaaburgers.com</a></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Woluwe</h4>
-                        <img class="img-fluid restaurantPic" src="images/table-791167_640.jpg" alt="AAAAAA Burgers - Woluwe" />
-                        <p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span><i class="fas fa-map-marker"></i></span>1200 Woluwe</p>
-                        <p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>
-                        <p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">woluwe@aaaburgers.com</a></p>
-                    </div>
                 </div>
-                <div id="openingHours" class="row">
-                    <div class="col-12 text-center">
-                        <p>Tous nos restaurants sont ouverts du mardi au dimanche de 11h à 23h.</p>
-                    </div>
+                <div id="footerLogo" class="col-lg-4 col-sm-12">
+                    <!--<h3>CENTER</h3>-->
+                    <img src="images/logo.png" alt="Logo" />
+                    <h3>AAAAAA Burgers</h3>
                 </div>
-            </div>
-            <div id="map" class="row">
-                
-            </div>
-            <footer id="mainFooter">
-                <div class="row">
-                    <div id="footerSiteMap" class="col-lg-4 col-sm-12">
-                        <h3>Sitemap</h3>
-                        <nav class="nav flex-column">
-                            <a class="nav-link" href="index.html">Home</a>
-                            <a class="nav-link" href="menu.html">Menu</a>
-                            <a class="nav-link" href="gallery.html">Pics</a>
-                            <a class="nav-link" href="findus.html">Find us</a>
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </nav>
-                    </div>
-                    <div id="footerLogo" class="col-lg-4 col-sm-12">
-                        <!--<h3>CENTER</h3>-->
-                        <img src="images/logo.png" alt="Logo" />
-                        <h3>AAAAAA Burgers</h3>
-                    </div>
-                    <div id="footerSocial" class="col-lg-4 col-sm-12">
-                        <h3>Follow us</h3>
-                        <ul class="text-center">
-<!--                            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i>Find us on Facebook</a></li>
+                <div id="footerSocial" class="col-lg-4 col-sm-12">
+                    <h3>Follow us</h3>
+                    <ul class="text-center">
+                        <!--                            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i>Find us on Facebook</a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i>Follow us on twitter</a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-instagram"></i>Admire us on instagrm</a></li>
                             <li><a href="#" target="_blank"><i class="fas fa-at"></i>Send us an email</a></li>-->
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fas fa-at"></i></a></li>
-                        </ul>
-                    </div>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fas fa-at"></i></a></li>
+                    </ul>
                 </div>
-                <p id="copyright">&copy; 2018 - Crafted with <img id="img" src="images/apple.png" alt="" /> by Thibault Gribaumont</p>
-<!--                <script src="js/jquery-1.12.3.js"></script>
+            </div>
+            <p id="copyright">&copy; 2018 - Crafted with <img id="img" src="images/apple.png" alt="" /> by Thibault Gribaumont</p>
+            <!--                <script src="js/jquery-1.12.3.js"></script>
                 <script src="js/functions.js"></script>-->
-                <!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>-->
-                <script>
+            <!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>-->
+            <script>
+                function initMap() {
+                    var styles = [{
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#ebe3cd"
+                        }]
+                    }, {
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#523735"
+                        }]
+                    }, {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [{
+                            "color": "#f5f1e6"
+                        }]
+                    }, {
+                        "featureType": "administrative",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                            "color": "#c9b2a6"
+                        }]
+                    }, {
+                        "featureType": "administrative.land_parcel",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                            "color": "#dcd2be"
+                        }]
+                    }, {
+                        "featureType": "administrative.land_parcel",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#ae9e90"
+                        }]
+                    }, {
+                        "featureType": "landscape.natural",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#dfd2ae"
+                        }]
+                    }, {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#dfd2ae"
+                        }]
+                    }, {
+                        "featureType": "poi",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#93817c"
+                        }]
+                    }, {
+                        "featureType": "poi.park",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#a5b076"
+                        }]
+                    }, {
+                        "featureType": "poi.park",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#447530"
+                        }]
+                    }, {
+                        "featureType": "road",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#f5f1e6"
+                        }]
+                    }, {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#fdfcf8"
+                        }]
+                    }, {
+                        "featureType": "road.highway",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#f8c967"
+                        }]
+                    }, {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                            "color": "#e9bc62"
+                        }]
+                    }, {
+                        "featureType": "road.highway.controlled_access",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#e98d58"
+                        }]
+                    }, {
+                        "featureType": "road.highway.controlled_access",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                            "color": "#db8555"
+                        }]
+                    }, {
+                        "featureType": "road.local",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#806b63"
+                        }]
+                    }, {
+                        "featureType": "transit.line",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#dfd2ae"
+                        }]
+                    }, {
+                        "featureType": "transit.line",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#8f7d77"
+                        }]
+                    }, {
+                        "featureType": "transit.line",
+                        "elementType": "labels.text.stroke",
+                        "stylers": [{
+                            "color": "#ebe3cd"
+                        }]
+                    }, {
+                        "featureType": "transit.station",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#dfd2ae"
+                        }]
+                    }, {
+                        "featureType": "water",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#b9d3c2"
+                        }]
+                    }, {
+                        "featureType": "water",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#92998d"
+                        }]
+                    }];
 
-                    function initMap() {
-                        var styles = [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#ebe3cd"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#523735"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#f5f1e6"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#c9b2a6"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#dcd2be"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#ae9e90"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape.natural",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#93817c"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#a5b076"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#447530"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f5f1e6"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#fdfcf8"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f8c967"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#e9bc62"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e98d58"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#db8555"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#806b63"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#8f7d77"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#ebe3cd"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#b9d3c2"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#92998d"
-      }
-    ]
-  }
-                        ];
-                        
-                        // Create a new StyledMapType object, passing it the array of styles,
-                        // as well as the name to be displayed on the map type control.
-                        var styledMap = new google.maps.StyledMapType(styles,{name: "Styled Map"});
-                        
-                        // Create a map object, and include the MapTypeId to add
-                        // to the map type control.
-                        var mapOptions = {
-                            zoom: 13,
-                            scrollwheel: false,
-                            center: new google.maps.LatLng(50.8404189, 4.4030797),
-                            mapTypeControlOptions: {
-                                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-                            }
-                        };
-                        var map = new google.maps.Map(document.getElementById('map'),mapOptions);
-                        var locations = [
-                            ['Auderghem', 50.8185944, 4.4002457],
-                            ['Ixelles', 50.8275292, 4.3696045],
-                            ['Woluwe', 50.8499944, 4.451206]
-                        ];
-                        var icon = {
-                            url: 'images/logo.png',
-                            scaledSize: new google.maps.Size(50, 50)
-                        };
-                        // Info Window Content
-                        var infoWindowContent = [
-                            ['<div class="info_content">' +
+                    // Create a new StyledMapType object, passing it the array of styles,
+                    // as well as the name to be displayed on the map type control.
+                    var styledMap = new google.maps.StyledMapType(styles, {
+                        name: "Styled Map"
+                    });
+
+                    // Create a map object, and include the MapTypeId to add
+                    // to the map type control.
+                    var mapOptions = {
+                        zoom: 13,
+                        scrollwheel: false,
+                        center: new google.maps.LatLng(50.8404189, 4.4030797),
+                        mapTypeControlOptions: {
+                            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                        }
+                    };
+                    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+                    var locations = [
+                        ['Auderghem', 50.8185944, 4.4002457],
+                        ['Ixelles', 50.8275292, 4.3696045],
+                        ['Woluwe', 50.8499944, 4.451206]
+                    ];
+                    var icon = {
+                        url: 'images/logo.png',
+                        scaledSize: new google.maps.Size(50, 50)
+                    };
+                    // Info Window Content
+                    var infoWindowContent = [
+                        ['<div class="info_content">' +
                             '<h3>Auderghem</h3>' +
                             '<p>Whoop whoop Auderghem</p>' +
                             '<p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span></span>1160 Auderghem</p>' +
                             '<p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>' +
                             '<p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">auderghem@aaaburgers.com</a></p>' +
-                            '</div>'],
-                            ['<div class="info_content">' +
+                            '</div>'
+                        ],
+                        ['<div class="info_content">' +
                             '<h3>Ixelles</h3>' +
                             '<p>Whoop whoop Ixelles</p>' +
                             '<p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span></span>1150 Ixelles</p>' +
                             '<p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>' +
                             '<p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">ixelles@aaaburgers.com</a></p>' +
-                            '</div>'],
-                            ['<div class="info_content">' +
+                            '</div>'
+                        ],
+                        ['<div class="info_content">' +
                             '<h3>Woluwe</h3>' +
                             '<p>Whoop whoop Woluwe</p>' +
                             '<p class="locationAddress"><span><i class="fas fa-home"></i></span>Streetname nbr<br><span></span>1200 Woluwe</p>' +
                             '<p class="locationPhone"><span><i class="fas fa-phone"></i></span>02 123 45 67</p>' +
                             '<p class="locationEmail"><span><i class="fas fa-at"></i></span><a href="mailto:test@gmail.com">woluwe@aaaburgers.com</a></p>' +
-                            '</div>']
-                        ];
-                        var infoWindow = new google.maps.InfoWindow(), marker, i;
-                        for (var i = 0; i < locations.length; i++) {
-                            var position = new google.maps.LatLng(locations[i][1], locations[i][2]);
-                            var marker = new google.maps.Marker({
+                            '</div>'
+                        ]
+                    ];
+                    var infoWindow = new google.maps.InfoWindow(),
+                        marker, i;
+                    for (var i = 0; i < locations.length; i++) {
+                        var position = new google.maps.LatLng(locations[i][1], locations[i][2]);
+                        var marker = new google.maps.Marker({
                             position: position,
                             map: map,
                             icon: icon
-                            });
-                            // Allow each marker to have an info window    
-                            google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                                return function() {
-//                                    infoWindow.setContent(locations[i][0]);
-                                    infoWindow.setContent(infoWindowContent[i][0]);
-                                    infoWindow.open(map, marker);
-                                }
-                            })(marker, i));
-                        };
-                        
-                        //Associate the styled map with the MapTypeId and set it to display.
-                        map.mapTypes.set('map_style', styledMap);
-                        map.setMapTypeId('map_style');
-                        
-                    }
-                </script>
-                <script src="js/jquery-1.12.3.js"></script>
-                <script src="js/functions.js"></script>
-                <!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>-->
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzx5t7XPi92SrPbITD3Nji36EbYTVmu58&callback=initMap" async defer></script>
-                <!--<script src="js/sw.js"></script>-->
-            </footer>
-        </div>
-    </body>
+                        });
+                        // Allow each marker to have an info window    
+                        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                            return function() {
+                                //                                    infoWindow.setContent(locations[i][0]);
+                                infoWindow.setContent(infoWindowContent[i][0]);
+                                infoWindow.open(map, marker);
+                            }
+                        })(marker, i));
+                    };
+
+                    //Associate the styled map with the MapTypeId and set it to display.
+                    map.mapTypes.set('map_style', styledMap);
+                    map.setMapTypeId('map_style');
+
+                }
+            </script>
+            <script src="js/jquery-1.12.3.js"></script>
+            <script src="js/functions.js"></script>
+            <!-- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script> -->
+            <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzx5t7XPi92SrPbITD3Nji36EbYTVmu58&callback=initMap" async defer></script> -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCZPaOThIaYBkiu5QkQB1FtFyHJ6Y0nRM&callback=initMap" async defer></script>
+            <!--<script src="js/sw.js"></script>-->
+        </footer>
+    </div>
+</body>
+
 </html>
